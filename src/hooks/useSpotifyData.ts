@@ -1,4 +1,4 @@
-import {onMounted, onUnmounted, Ref, ref} from "vue";
+import { onMounted, onUnmounted, Ref, ref } from 'vue';
 
 type HelloMessage = {
     op: 1;
@@ -17,8 +17,8 @@ type EventMessage = InitializeEvent |  PresenceUpdateEvent;
 
 type SocketMessage = HelloMessage | EventMessage;
 
-type InitializeEvent = EventMessageBase<"INIT_STATE", Record<string, LanyardPresenceData>>;
-type PresenceUpdateEvent = EventMessageBase<"PRESENCE_UPDATE", LanyardPresenceData>
+type InitializeEvent = EventMessageBase<'INIT_STATE', Record<string, LanyardPresenceData>>;
+type PresenceUpdateEvent = EventMessageBase<'PRESENCE_UPDATE', LanyardPresenceData>
 
 type LanyardPresenceData = {
     spotify: SpotifyData;
@@ -48,12 +48,12 @@ class LanyardConnection {
         const data: SocketMessage = JSON.parse(msg.data);
 
         switch (data.op) {
-            case 0:
-                this.handleEvent(data);
-                break;
-            case 1:
-                this.handleHello(data);
-                break;
+        case 0:
+            this.handleEvent(data);
+            break;
+        case 1:
+            this.handleHello(data);
+            break;
         }
     }
 

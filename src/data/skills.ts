@@ -3,7 +3,7 @@ import LaravelLogo from '../assets/skills/laravel.svg?component';
 import LuaLogo from '../assets/skills/lua.svg?component';
 import TypeScriptLogo from '../assets/skills/typescript.svg?component';
 import VueLogo from '../assets/skills/vue.svg?component';
-import {Component} from "vue";
+import { Component } from 'vue';
 
 type Skill = {
     name: string;

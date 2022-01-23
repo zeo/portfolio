@@ -1,5 +1,5 @@
 import { createApp } from 'vue'
-import { createRouter, createWebHistory } from "vue-router";
+import { createRouter, createWebHistory } from 'vue-router';
 import App from './App.vue'
 import Home from './views/Home.vue';
 import Projects from './views/Projects.vue';

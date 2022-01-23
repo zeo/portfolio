@@ -15,16 +15,16 @@
     "postcss": "^8.4.5",
     "tailwindcss": "^3.0.15",
     "vite-svg-loader": "^3.1.2",
-    "vue": "^3.2.25",
-    "vue-router": "4",
+    "vue": "^3.2.29",
+    "vue-router": "^4.0.12",
     "vue-tippy": "^6.0.0-alpha.44"
   },
   "devDependencies": {
     "@types/node": "^17.0.10",
     "@types/svgo": "^2.6.1",
-    "@vitejs/plugin-vue": "^2.0.0",
-    "typescript": "^4.4.4",
-    "vite": "^2.7.2",
+    "@vitejs/plugin-vue": "^2.1.0",
+    "typescript": "^4.5.5",
+    "vite": "^2.7.13",
     "vue-tsc": "^0.29.8"
   }
 }

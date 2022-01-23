@@ -4,7 +4,6 @@ import backgroundImage from '../assets/background.jpg';
 import Skribbl from "../assets/skribbl.svg?component";
 import skills from '../data/skills';
 import SpotifyPresence from "../components/SpotifyPresence.vue";
-
 </script>
 
 <template>

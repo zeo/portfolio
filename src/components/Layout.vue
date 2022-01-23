@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import Dropdown from "../components/Dropdown.vue";
 import DropdownItem from "./DropdownItem.vue";
-import { faGithub, faSteam } from "@fortawesome/free-brands-svg-icons";
+import {faGithub, faSteam} from "@fortawesome/free-brands-svg-icons";
 </script>
 
 <template>
@@ -12,13 +12,15 @@ import { faGithub, faSteam } from "@fortawesome/free-brands-svg-icons";
           Home
         </router-link>
 
-        <router-link to="/projects" class="text-gray-300 hover:text-white py-2 rounded-md text-sm font-medium transition">
+        <router-link to="/projects"
+                     class="text-gray-300 hover:text-white py-2 rounded-md text-sm font-medium transition">
           Projects
         </router-link>
 
         <Dropdown>
           <template #trigger="{ toggle }">
-            <button @click="toggle" class="text-gray-300 hover:text-white group inline-flex items-center text-sm font-medium py-2 focus:outline-none">
+            <button @click="toggle"
+                    class="text-gray-300 hover:text-white group inline-flex items-center text-sm font-medium py-2 focus:outline-none">
               <span>Socials</span>
 
               <svg class="text-gray-400 ml-2 h-5 w-5 group-hover:text-white" xmlns="http://www.w3.org/2000/svg"

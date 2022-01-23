@@ -21,7 +21,6 @@ specifiers:
   vite-svg-loader: ^3.1.2
   vue: ^3.2.29
   vue-router: ^4.0.12
-  vue-tippy: ^6.0.0-alpha.44
   vue-tsc: ^0.29.8
 
 dependencies:
@@ -35,7 +34,6 @@ dependencies:
   vite-svg-loader: 3.1.2
   vue: 3.2.29
   vue-router: 4.0.12_vue@3.2.29
-  vue-tippy: 6.0.0-alpha.44_vue@3.2.29
 
 devDependencies:
   '@types/node': 17.0.10
@@ -182,10 +180,6 @@ packages:
     dependencies:
       '@nodelib/fs.scandir': 2.1.5
       fastq: 1.13.0
-
-  /@popperjs/core/2.11.2:
-    resolution: {integrity: sha512-92FRmppjjqz29VMJ2dn+xdyXZBrMlE42AV6Kq6BwjWV7CNUW1hs2FtxSNLQE+gJhaZ6AAmYuO9y8dshhcBl7vA==}
-    dev: false
 
   /@trysound/sax/0.2.0:
     resolution: {integrity: sha512-L7z9BgrNEcYyUYtF+HaEfiS5ebkh9jXqbszz7pC0hRBPaatV0XjSD3+eHrpqFemQfgwiFF0QPIarnIihIDn7OA==}
@@ -2035,12 +2029,6 @@ packages:
     resolution: {integrity: sha1-f17oI66AUgfACvLfSoTsP8+lcLQ=}
     dev: true
 
-  /tippy.js/6.3.7:
-    resolution: {integrity: sha512-E1d3oP2emgJ9dRQZdf3Kkn0qJgI6ZLpyS5z6ZkY1DF3kaQaBsGZsndEpHwx+eC+tYM41HaSNvNtLx8tU57FzTQ==}
-    dependencies:
-      '@popperjs/core': 2.11.2
-    dev: false
-
   /to-fast-properties/2.0.0:
     resolution: {integrity: sha1-3F5pjL0HkmW8c+A3doGk5Og/YW4=}
     engines: {node: '>=4'}
@@ -2283,15 +2271,6 @@ packages:
       vue: ^3.0.0
     dependencies:
       '@vue/devtools-api': 6.0.0-beta.21.1
-      vue: 3.2.29
-    dev: false
-
-  /vue-tippy/6.0.0-alpha.44_vue@3.2.29:
-    resolution: {integrity: sha512-qOa/LSRkwyepArQipHybZ2TD77gfADA5z88PhRv3nTQZ/0O86fsTmzxaAFfE2ePDA2uyhPqhWWvkiVoxGgysNQ==}
-    peerDependencies:
-      vue: ^3.0.0
-    dependencies:
-      tippy.js: 6.3.7
       vue: 3.2.29
     dev: false
 

@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import Layout from "../components/Layout.vue";
 import backgroundImage from '../assets/background.jpg';
-import Skribbl from "../components/Skribbl.vue";
+import Skribbl from "../assets/skribbl.svg?component";
 import skills from '../data/skills';
 import SpotifyPresence from "../components/SpotifyPresence.vue";
 

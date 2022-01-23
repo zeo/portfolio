@@ -39,7 +39,7 @@ const projects: Project[] = [
         'description': 'I was hired by a well-known Garry\\\'s Mod community to create the frontend menu of their unboxing system. This had to be done using their internal UI library and design scheme to match the theme of the server. The main menu also had to be easily accessible for every player, independent on their time on the server.',
         'image': UnboxingSystemImage,
         'tags': ['lua', 'ui-ux'],
-        'timeFrame': '1 month'
+        'timeFrame': '1 month',
     },
     {
         'name': 'Gang System',

@@ -48,6 +48,7 @@ import { faGithub, faSteam } from '@fortawesome/free-brands-svg-icons';
 
           <DropdownItem
             href="https://github.com/zeo"
+            target="_blank"
             :icon="faGithub"
           >
             Github
@@ -55,6 +56,7 @@ import { faGithub, faSteam } from '@fortawesome/free-brands-svg-icons';
 
           <DropdownItem
             href="https://steamcommunity.com/id/zeo-dev/"
+            target="_blank"
             :icon="faSteam"
           >
             Steam

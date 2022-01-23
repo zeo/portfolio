@@ -14,6 +14,7 @@ specifiers:
   axios: ^0.25.0
   eslint: ^8.7.0
   eslint-plugin-vue: ^8.3.0
+  husky: ^7.0.4
   postcss: ^8.4.5
   tailwindcss: ^3.0.15
   typescript: ^4.5.5
@@ -44,6 +45,7 @@ devDependencies:
   '@vue/eslint-config-typescript': 10.0.0_b5007341d5f2a2e7b479ac173dfc16cf
   eslint: 8.7.0
   eslint-plugin-vue: 8.3.0_eslint@8.7.0
+  husky: 7.0.4
   typescript: 4.5.5
   vite: 2.7.13
   vue-tsc: 0.29.8_typescript@4.5.5
@@ -1393,6 +1395,12 @@ packages:
       domhandler: 4.3.0
       domutils: 2.8.0
       entities: 3.0.1
+    dev: true
+
+  /husky/7.0.4:
+    resolution: {integrity: sha512-vbaCKN2QLtP/vD4yvs6iz6hBEo6wkSzs8HpRah1Z6aGmF2KW5PdYuAd7uX5a+OyBZHBhd+TFLqgjUgytQr4RvQ==}
+    engines: {node: '>=12'}
+    hasBin: true
     dev: true
 
   /ignore/4.0.6:

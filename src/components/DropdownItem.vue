@@ -12,14 +12,15 @@ const props = defineProps<{
 <template>
   <component
     :is="props.as ?? 'a'"
-    class="text-gray-300 group flex items-center px-4 py-2 text-sm"
+    class="text-gray-300 hover:text-gray-200 group flex items-center px-4 py-2 text-sm"
     role="menuitem"
     tabindex="-1"
   >
     <FontAwesomeIcon
       v-if="props.icon"
       :icon="props.icon"
-      class="mr-3 text-gray-400 group-hover:text-gray-500"
+      size="lg"
+      class="mr-3 text-gray-400 group-hover:text-gray-300"
     />
 
     <slot />

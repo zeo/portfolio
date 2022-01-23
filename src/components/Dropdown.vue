@@ -11,7 +11,7 @@ const toggle = () => {
 </script>
 
 <template>
-  <div class="relative">
+  <div class="relative z-10">
     <slot
       name="trigger"
       :toggle="toggle"

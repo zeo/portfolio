@@ -20,6 +20,8 @@
     "vue-tippy": "^6.0.0-alpha.44"
   },
   "devDependencies": {
+    "@types/node": "^17.0.10",
+    "@types/svgo": "^2.6.1",
     "@vitejs/plugin-vue": "^2.0.0",
     "typescript": "^4.4.4",
     "vite": "^2.7.2",

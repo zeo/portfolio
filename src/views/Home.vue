@@ -34,7 +34,7 @@ import SpotifyPresence from "../components/SpotifyPresence.vue";
 
         <div class="flex space-x-6 mt-5">
           <template v-for="(skill, i) in skills" :key="i">
-            <div class="text-gray-400 transition" :class="skill.color">
+            <div class="text-gray-400 transition">
               <span class="sr-only">{{ skill.name }}</span>
 
               <component :is="skill.icon" class="w-8 h-8 hover:text-primary-500 transition"/>

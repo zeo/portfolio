@@ -19,7 +19,7 @@ const data = useSpotifyData();
         <div class="w-40 h-4 bg-gray-700 animate-pulse rounded"></div>
       </div>
 
-      <a v-else :href="`https://open.spotify.com/track/${data.track_id}`" class="focus:outline-none">
+      <a v-else :href="data ? `https://open.spotify.com/track/${data.track_id}` : '#'" class="focus:outline-none">
         <span class="absolute inset-0" aria-hidden="true"></span>
 
         <p class="text-sm font-medium text-gray-300 overflow-ellipsis whitespace-nowrap truncate">

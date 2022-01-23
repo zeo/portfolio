@@ -3,7 +3,7 @@ import {FontAwesomeIcon} from "@fortawesome/vue-fontawesome";
 import {IconProp} from "@fortawesome/fontawesome-svg-core";
 
 const {as, icon} = defineProps<{
-  as: string,
+  as?: string,
   icon?: IconProp
 }>();
 </script>

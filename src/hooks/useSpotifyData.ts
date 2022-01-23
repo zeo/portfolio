@@ -34,7 +34,8 @@ type SpotifyData = {
 
 class LanyardConnection {
     private readonly socket: WebSocket;
-    private heartbeatId?: number;
+    // @ts-ignore
+    private heartbeatId?;
     private readonly callback: (data: LanyardPresenceData) => void;
 
     constructor(callback: (data: LanyardPresenceData) => void) {

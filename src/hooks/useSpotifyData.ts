@@ -34,8 +34,7 @@ type SpotifyData = {
 
 class LanyardConnection {
     private readonly socket: WebSocket;
-    // @ts-ignore
-    private heartbeatId?;
+    private heartbeatId?: number;
     private readonly callback: (data: LanyardPresenceData) => void;
 
     constructor(callback: (data: LanyardPresenceData) => void) {
@@ -61,7 +60,7 @@ class LanyardConnection {
     private handleHello(data: HelloMessage) {
         this.sendInitialize();
 
-        this.heartbeatId = setInterval(() => {
+        this.heartbeatId = window.setInterval(() => {
             this.sendHeartbeat();
         }, data.d.heartbeat_interval);
     }
@@ -101,7 +100,7 @@ class LanyardConnection {
 
     public close() {
         this.socket.close();
-        clearInterval(this.heartbeatId);
+        window.clearInterval(this.heartbeatId);
     }
 }
 

@@ -49,7 +49,7 @@ import SpotifyPresence from '../components/SpotifyPresence.vue';
               <component
                 :is="skill.icon"
                 :title="skill.name"
-                class="w-8 h-8 hover:text-primary-500 transition"
+                class="w-8 h-8 hover:text-primary-500 fill-current transition"
               />
             </div>
           </template>

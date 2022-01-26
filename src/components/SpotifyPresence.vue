@@ -2,23 +2,33 @@
 import useSpotifyData from '../hooks/useSpotifyData';
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 import { faSpotify } from '@fortawesome/free-brands-svg-icons';
-import musicImage from '../assets/music.webp';
+import { faMusicSlash } from '@fortawesome/pro-regular-svg-icons';
 
 const data = useSpotifyData();
 </script>
 
 <template>
-  <div class="relative mt-8 rounded-lg bg-gray-900 border border-primary-300 border-2 border-dashed hover:bg-gray-800 transition px-6 py-5 shadow-sm flex items-center space-x-3 max-w-lg">
+  <div class="relative mt-8 rounded-lg bg-gray-900 border border-primary-300 border-2 border-dashed hover:bg-gray-800 transition group px-6 py-5 shadow-sm flex items-center space-x-3 max-w-lg">
     <div class="flex-shrink-0">
       <div
         v-if="data === null"
         class="w-10 h-10 rounded-full bg-gray-700 animate-pulse"
       />
+      <div
+        v-else-if="data === false"
+        class="group-hover:bg-gray-900d bg-gray-800 transition w-10 h-10 rounded-full flex items-center justify-center"
+      >
+        <FontAwesomeIcon
+          class="text-gray-300"
+          size="sm"
+          :icon="faMusicSlash"
+        />
+      </div>
       <img
         v-else
         class="h-10 w-10 rounded-full"
-        :src="data ? data.album_art_url : musicImage"
-        alt=""
+        :src="data.album_art_url"
+        alt="Album Cover"
       >
     </div>
     <div class="flex-1 min-w-0">

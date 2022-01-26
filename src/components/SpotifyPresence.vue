@@ -16,7 +16,7 @@ const data = useSpotifyData();
       />
       <div
         v-else-if="data === false"
-        class="group-hover:bg-gray-900d bg-gray-800 transition w-10 h-10 rounded-full flex items-center justify-center"
+        class="w-10 h-10 flex items-center justify-center"
       >
         <FontAwesomeIcon
           class="text-gray-300"

@@ -28,7 +28,7 @@ const projects: Project[] = [
     {
         'name': 'Mining System',
         // eslint-disable-next-line max-len
-        'description': 'This mining / crafting system was commissioned by a former Garry\\\'s Mod community, it had several core features such as mining ores with different tools and crafting items with the mined ores.  Some included side but game-changing features are the radioactive ores and upgrades to make mining more efficient. The UI also has several features to navigate easily such as searching for your favourite items.',
+        'description': 'This mining / crafting system was commissioned by a former Garry\'s Mod community, it had several core features such as mining ores with different tools and crafting items with the mined ores.  Some included side but game-changing features are the radioactive ores and upgrades to make mining more efficient. The UI also has several features to navigate easily such as searching for your favourite items.',
         'image': MiningSystemImage,
         'tags': ['lua', 'data-handling'],
         'timeFrame': '2 months (including revisions)',
@@ -36,7 +36,7 @@ const projects: Project[] = [
     {
         'name': 'Unboxing System',
         // eslint-disable-next-line max-len
-        'description': 'I was hired by a well-known Garry\\\'s Mod community to create the frontend menu of their unboxing system. This had to be done using their internal UI library and design scheme to match the theme of the server. The main menu also had to be easily accessible for every player, independent on their time on the server.',
+        'description': 'I was hired by a well-known Garry\'s Mod community to create the frontend menu of their unboxing system. This had to be done using their internal UI library and design scheme to match the theme of the server. The main menu also had to be easily accessible for every player, independent on their time on the server.',
         'image': UnboxingSystemImage,
         'tags': ['lua', 'ui-ux'],
         'timeFrame': '1 month',
@@ -52,7 +52,7 @@ const projects: Project[] = [
     {
         'name': 'Scoreboard',
         // eslint-disable-next-line max-len
-        'description': 'A sleek, modern scoreboard made for a Garry\\\'s Mod gaming community. The scoreboard is made using XeninUI (this was requested by the client) and includes sorting, searching and integrations with multiple custom addons that were on the server.',
+        'description': 'A sleek, modern scoreboard made for a Garry\'s Mod gaming community. The scoreboard is made using XeninUI (this was requested by the client) and includes sorting, searching and integrations with multiple custom addons that were on the server.',
         'image': ScoreboardImage,
         'tags': ['lua', 'ui-ux'],
         'timeFrame': '1 month (including revisions)',
@@ -60,7 +60,7 @@ const projects: Project[] = [
     {
         'name': 'Year/Season System',
         // eslint-disable-next-line max-len
-        'description': 'This was my very first GLua project, it\\\'s a simple year and season system. The season changed every 10 minutes the server is online, and the data gets stored over multiple sessions.',
+        'description': 'This was my very first GLua project, it\'s a simple year and season system. The season changed every 10 minutes the server is online, and the data gets stored over multiple sessions.',
         'image': YearSeasonSystemImage,
         'tags': ['lua', 'nostalgic'],
         'timeFrame': 'approx. 5 days',

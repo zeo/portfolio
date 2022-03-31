@@ -22,7 +22,7 @@ const projects: Project[] = [
         'description': 'With the development of Cosmo, we were challenged of building a secure, maintainable and flexible code-base. To help with this we used the Laravel framework, a powerful and well maintained framework. For the rest I had to make sure clients could easily navigate through the site with an outstanding experience.',
         'image': CosmoImage,
         'url': 'https://demo.tbdscripts.com',
-        'tags': ['laravel', 'data-handling', 'ui-ux'],
+        'tags': ['laravel', 'data-processing', 'ui-ux'],
         'timeFrame': '2020 - now',
     },
     {
@@ -30,7 +30,7 @@ const projects: Project[] = [
         // eslint-disable-next-line max-len
         'description': 'This mining / crafting system was commissioned by a former Garry\'s Mod community, it had several core features such as mining ores with different tools and crafting items with the mined ores.  Some included side but game-changing features are the radioactive ores and upgrades to make mining more efficient. The UI also has several features to navigate easily such as searching for your favourite items.',
         'image': MiningSystemImage,
-        'tags': ['lua', 'data-handling'],
+        'tags': ['lua', 'data-processing'],
         'timeFrame': '2 months (including revisions)',
     },
     {
@@ -46,7 +46,7 @@ const projects: Project[] = [
         // eslint-disable-next-line max-len
         'description': 'A gang system I made for a DarkRP server, its features ranged from bank, to roles, to allies. The menu was done using XeninUI and had to be integrated into the F4 menu he was already using on the server, so the menu was easily accessible for players and matches the main theme of the server..',
         'image': GangSystemImage,
-        'tags': ['lua', 'ui-ux', 'data-handling'],
+        'tags': ['lua', 'ui-ux', 'data-processing'],
         'timeFrame': '3 months (including revisions)',
     },
     {

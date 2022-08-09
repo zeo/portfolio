@@ -152,7 +152,10 @@ const mobileOpen = ref(false);
             </div>
 
             <div class="mt-3 space-x-5">
-              <a href="https://github.com/zeo">
+              <a
+                href="https://github.com/zeo"
+                target="_blank"
+              >
                 <font-awesome-icon
                   size="lg"
                   :icon="faGithub"
@@ -160,7 +163,10 @@ const mobileOpen = ref(false);
                 />
               </a>
 
-              <a href="https://steamcommunity.com/id/zeo-dev/">
+              <a
+                href="https://steamcommunity.com/id/zeo-dev/"
+                target="_blank"
+              >
                 <font-awesome-icon
                   size="lg"
                   :icon="faSteam"

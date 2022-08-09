@@ -1,5 +1,6 @@
 import { createApp } from 'vue'
 import { createRouter, createWebHistory } from 'vue-router';
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 import App from './App.vue'
 import Home from './views/Home.vue';
 import Projects from './views/Projects.vue';
@@ -16,4 +17,5 @@ const router = createRouter({
 
 createApp(App)
     .use(router)
+    .component('font-awesome-icon', FontAwesomeIcon)
     .mount('#app');

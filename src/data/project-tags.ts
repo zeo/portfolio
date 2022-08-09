@@ -12,8 +12,8 @@ const projectTags: Record<string, ProjectTag> = {
         'name': 'Laravel',
         'color': 'bg-red-400 text-red-900',
     },
-    'data-handling': {
-        'name': 'Data Handling',
+    'data-processing': {
+        'name': 'Data Processing',
         'color': 'bg-green-400 text-green-900',
     },
     'ui-ux': {

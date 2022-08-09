@@ -6,7 +6,7 @@ import Layout from '../components/Layout.vue';
 
 <template>
   <Layout>
-    <div class="md:max-w-5xl md:mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-10">
+    <div class="md:max-w-5xl md:mx-auto py-8 space-y-10">
       <template
         v-for="(project, i) in projects"
         :key="i"

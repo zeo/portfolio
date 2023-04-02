@@ -34,8 +34,7 @@ import SpotifyPresence from '../components/SpotifyPresence.vue';
         </h2>
 
         <p class="mt-8 text-lg text-gray-300">
-          My name is Mex de Loo aka Zeo. I've been programming for 4 years and during my time as a developer I've gained
-          experience with several technologies such as Laravel, Vue.JS, TailwindCSS and others.
+          My name is Mex de Loo aka Zeo. I'm currently studying Computer Science, however I've been programming for well over 4 years. I'm a freelance developer which specializes in web development, so please don't be afraid to reach out!
         </p>
 
         <div class="flex space-x-6 mt-5">

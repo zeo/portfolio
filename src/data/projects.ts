@@ -19,7 +19,7 @@ const projects: Project[] = [
     {
         'name': 'Cosmo',
         // eslint-disable-next-line max-len
-        'description': 'With the development of Cosmo, we were challenged of building a secure, maintainable and flexible code-base. To help with this we used the Laravel framework, a powerful and well maintained framework. For the rest I had to make sure clients could easily navigate through the site with an outstanding experience.',
+        'description': 'With the development of Cosmo, we were challenged of building a secure, maintainable and flexible code-base. To help with this we used the Laravel framework, a powerful and well maintained framework. For the rest I had to make sure clients could easily navigate through the site with an outstanding experience. Cosmo has recently been acquired by Physgun Ltd.',
         'image': CosmoImage,
         'url': 'https://demo.tbdscripts.com',
         'tags': ['laravel', 'data-processing', 'ui-ux'],
